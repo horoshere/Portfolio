@@ -24,4 +24,14 @@
       font-size: 16px;
      }
   }
+  &__link {
+    img {
+      &:hover {
+        width: 23px;
+        height: 23px;
+        transform: rotate(90deg);
+        transition: all 0.3s;
+      }
+    }
+  }
 }

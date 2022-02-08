@@ -3,4 +3,8 @@
   background: $main_color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   padding: 12px 25px;
+  &:hover {
+    background: #e39402;
+    transition: 0.3s all;
+  }
 }
