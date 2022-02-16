@@ -5,8 +5,8 @@
     margin: 60px 11px 0 10px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 270px;
-    grid-auto-rows: 270px;
+    // grid-template-rows: 270px;
+    grid-auto-rows: minmax(270px, auto);
     gap: 13px;
   }
   &__item {
