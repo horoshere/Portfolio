@@ -358,15 +358,19 @@
     </div>
   </section>
 
-  <!-- <section class="contacts">
+  <section class="contacts">
     <div class="container">
       <div class="contacts__wrapper">
         <div class="contacts__photo">
-          <img src="img/main_photo.jpg" alt="photo">
+          <picture>
+            <source media="(max-width: 576px)" srcset="img/main_photo-mini.jpg">
+            <source media="(min-width: 577px)" srcset="img/main_photo.jpg">
+            <img src="img/main_photo.jpg" alt="photo">
+          </picture>
         </div>
         <div class="contacts__block">
           <h2 class="title title_fz16 contacts__subtitle">Контакты</h2>
-          <div class="title">Свяжитесь со мной</div>
+          <div class="title contacts__title">Свяжитесь со мной</div>
           <div class="divider"></div>
           <div class="title title_fz14">Любым удобным для вас способом:</div>
           <div class="contacts__social">
@@ -406,7 +410,7 @@
         </div>
       </div>
     </div>
-  </section> -->
+  </section>
 
   <script src="js/script.js"></script>
 </body>
